@@ -1,0 +1,8 @@
+.locations {
+    border: 9px dotted fuchsia;
+
+}
+
+.location__image {
+   height: 23rem;
+}

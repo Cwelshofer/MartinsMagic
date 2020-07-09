@@ -1,3 +1,7 @@
+@import "./locations.css";
+@import "./quotes.css";
+@import "./fish.css";
+@import "./tips.css";
 
 
 /* Typography
@@ -32,20 +36,5 @@ h1,h2,h3,h4,h5,h6 {
      
 }
 
-.tips {
-    border: 3px dotted darkmagenta
-}
 
-.quotes {
-    border: 3px dotted darkred;
-}
 
-.locations {
-    border: 3px dotted fuchsia;
-
-}
-
-.fishes {
-    border: 3px dotted seagreen
-
-}
