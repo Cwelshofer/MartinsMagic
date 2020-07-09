@@ -2,3 +2,7 @@
     border: 3px dotted seagreen;
 
 }
+.fish__image {
+    height: 23rem;
+    width: 27rem;
+}

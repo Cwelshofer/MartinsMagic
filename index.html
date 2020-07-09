@@ -11,10 +11,11 @@
         <h1 class="siteTitle" >Martin's Magic Aquarium </h1>
     </header>
     <main id="container">
+        <div class="content-left">
         <article class="fishes">
             <section class="fish">
-                <div class="fish__image">
-                    <img src="./images/pc-keller-betta.jpg"
+                <div>
+                    <img class="fish__image image--card" src="./images/pc-keller-betta.jpg"
                 </div>
                 <div class="fish__name">
                     Karl
@@ -43,19 +44,32 @@
         <article class="locations">
             <section class="location">
                 <div>
-                    <img class="location__image" src="./images/apo-reef.jpg" />
+                    <img class="location__image image--card" src="./images/apo-reef.jpg" />
                 </div>
-                <div class="location__name"></div>
-                <div class="location__url"></div>
-                <div class="location__description"></div>
+                <div class="location__name">Apo Reef</div>
+                <div class="location__url"><a href ="http://www.apo-reef.com" target="blank">www.apo-reef.com</a></div>
+                <div class="location__description">Apo Reef is the largest coral reef in the Philippines! It spreads over an area of 34 square kilometres, making it the second
+                     largest connecting coral reef in the world (the first place being occupied by the Great Barrier Reef of Australia).
+                    The Apo Reef, also considered as the second largest atoll-like reef in the Philippines comprises of two isolated coral reefs 
+                    that are disconnected by a 30-meter deep channel. The clear blue waters of the channel are teeming with 285 species of colourful marine life, 
+                    including tropical aquarium fish, snappers and the crevice-dwelling moray.</div>
             </section>
         </article>
-        <aside class="tips"></aside>
+    </div>
+        <div class="content-right">
+        <aside class="tips">
+            <section class="tips">
+                The health of your fish depends upon having water in the tank that is healthy for them to live in.
+                 Monitor the water quality, including pH, ammonia and nitrite levels by using an at-
+                home test kit, or submit a water sample for testing at your local fish or exotic pet shop. 
+                Make the necessary adjustments as indicated.
+            </section>
+        </aside>
+        </div>
     </main>
     
 </main>
-
     <script type="module" src="./scripts/main.js></script>
     </body>
-</body>111
+</body>
 </html>
