@@ -1,19 +1,20 @@
-import {useFish} from "./FishDataProvider.js"
-import {FishAsHTML} from "./fish.js"
+import {useLocation} from "./LocationDataProvider.js"
+import {LocationsAsHTML} from "./Location.js"
 
-export const FishList = () => {
+
+export const LocationList = () => {
     
     const contentElement = document.querySelector(".content--left")
     
-    const fishes = useFish()
-console.log(fishes)
-    let fishHTMLRepresentations = ""
-    for(const currentFishObj of fishes){
-        fishHTMLRepresentations += FishAsHTML(currentFishObj)
+    const locations = useLocation()
+console.log(locations)
+    let locationHTMLRepresentations = ""
+    for(const currentLocationObj of locations){
+        locationHTMLRepresentations += LocationsAsHTML(currentLocationObj)
     }
     contentElement.innerHTML += `
-    <article class="fishes">
-        ${fishHTMLRepresentations}
+    <article class="locations">
+        ${locationHTMLRepresentations}
         </article>
         `
 }
